@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.MerdekaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_merdeka"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        app:tabTextColor="@color/black"
+        app:tabRippleColor="@color/darkred"
+        app:tabSelectedTextColor="@color/darkred"
+        app:tabIndicatorColor="@color/darkred"
+        android:layout_height="70dp"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp_merdeka"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="72dp"
+        android:background="@color/white"
+        android:paddingTop="8dp"/>
+
+
+</FrameLayout>
